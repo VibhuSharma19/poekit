@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="icon/logo.png" width="150" height="150" />
+<img src="https://github.com/VibhuSharma19/poekit/blob/main/icon/logo.png" width="150" height="150" />
 
 #  poekit
 
