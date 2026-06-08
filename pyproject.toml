@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poekit"
+version = "0.1.0"
+description = "Python implementation of Product of Exponentials (POE) and Screw Theory algorithms derived from the ST24R (Screw Theory Toolbox for Robotics) MATLAB by Dr. Jose M. Pardos-Gotor"
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.9"
+license = { text = "LGPL-3.0-or-later" }
+
+authors = [
+  { name = "Vibhu Sharma", email = "1999vibhusharma@gmail.com" }
+]
+
+keywords = [
+  "robotics",
+  "poe",
+  "screw-theory",
+  "lie-groups",
+  "se3",
+  "kinematics",
+  "st24r"
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Scientific/Engineering :: Robotics",
+  "Topic :: Scientific/Engineering :: Mathematics",
+  "Operating System :: OS Independent"
+]
+
+dependencies = [
+  "numpy>=1.25",
+  "sympy>=1.14"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/poekit"
+Repository = "https://github.com/yourname/poekit"
+Issues = "https://github.com/yourname/poekit/issues"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 88
+target-version = ["py39"]
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I", "UP"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.9"
+strict = true
+warn_unused_configs = true
