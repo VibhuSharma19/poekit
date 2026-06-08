@@ -55,7 +55,7 @@ pip install poekit
 ### From Source
 
 ```bash
-git clone https://github.com/<username>/poekit.git
+git clone https://github.com/VibhuSharma19/poekit.git
 
 cd poekit
 
