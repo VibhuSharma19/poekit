@@ -3,8 +3,8 @@ message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Sharma"
   given-names: "Vibhu"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
+  orcid: "https://orcid.org/0009-0006-6099-0730"
 title: "poekit: Screw Theory Toolkit for Python"
 version: 0.1.0
-date-released: 
-url: ""
+date-released: 2026-08-06
+url: "https://github.com/VibhuSharma19/poekit"
